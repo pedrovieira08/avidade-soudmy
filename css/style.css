@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*=========================================================================
+                                 GERAL
+=========================================================================*/
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main section.banner{
+	margin: 0 15vw 0 15vw;
+
+}
+a.button{
+	background-color: #0E8388;
+	color: white;
+	padding:8px 14px 8px 14px;
+	border-radius: 6%;
+	display: inline-block;
+}
+
+/*=========================================================================
+                                 topo
+=========================================================================*/
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:3vw 10vw 4vw 10vw ;	
+}
+header h1{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+header nav ul{
+	display: flex;
+	align-items: center;
+}
+header nav ul li{
+	margin: 0 10px 0 10px;
+
+}
+/*=========================================================================
+                                conteúdo
+=========================================================================*/
+main section.banner{
+	text-align: center;
+}
+main section.banner h2{
+	font-size: 2rem;
+	margin: 1vw 0 1vw 0 1vw;
+}
+main section.banner p.primeiro{
+	margin: 1.5vw 0 1.5vw 0;
+	font-size: 1.4rem ;
+	color: #888888;
+}
+/*=========================================================================
+                                section.produto
+=========================================================================*/
+main section.produto{
+	background-color: #Cbe4de;
+	padding: 1VW 0 1VW 0;
+	margin:5VW 0 0 0;
+}main section.produto h2{
+	font-size: 1rem;
+	text-align: center;
+	margin:1vw 0 1vw 0;
+}main section.produto {
+
+}
+main section.produto ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+main section.produto ul li{
+	width: 30%;
+	justify-content: space-around;
+	background-color: white;
+	margin: 5px 5px 5px ;
+	padding:5px 5px 5px 5px ;
+	border-radius: 10%;
+	text-align: center;
+}
