@@ -67,7 +67,10 @@ a.button{
 	border-radius: 6%;
 	display: inline-block;
 }
-
+p{
+	margin: 1.5vw 0 1.5vw 0;
+	color: #888888;
+}
 /*=========================================================================
                                  topo
 =========================================================================*/
@@ -99,35 +102,91 @@ main section.banner h2{
 	font-size: 2rem;
 	margin: 1vw 0 1vw 0 1vw;
 }
-main section.banner p.primeiro{
-	margin: 1.5vw 0 1.5vw 0;
-	font-size: 1.4rem ;
-	color: #888888;
-}
+
 /*=========================================================================
                                 section.produto
 =========================================================================*/
 main section.produto{
 	background-color: #Cbe4de;
-	padding: 1VW 0 1VW 0;
-	margin:5VW 0 0 0;
+	padding: 3vw 26vw 3vw 26vw;
+	margin:5vw 0 0 0;
+	text-align: center;
+	align-items: center;
 }main section.produto h2{
 	font-size: 1rem;
 	text-align: center;
 	margin:1vw 0 1vw 0;
-}main section.produto {
-
 }
 main section.produto ul{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 main section.produto ul li{
 	width: 30%;
 	justify-content: space-around;
 	background-color: white;
-	margin: 5px 5px 5px ;
-	padding:5px 5px 5px 5px ;
-	border-radius: 10%;
+	margin: 5px 5px 5px 5px;
+	padding:10px;
+	border-radius: 10px;
+	
+}main section.produto  h2{
+  font-size: 1.6rem;
+}
+span.fa-regular fa-bell{
+	background-color: #888888;
+}
+
+/*=========================================================================
+                                section.buid
+=========================================================================*/
+main section.buid{
+	text-align: center;	
+	align-items: center;
+	padding: 3vw 26vw 3vw 26vw;
+}
+main section.buid ul{
+ margin:0vw 0vw 0vw 5vw;
+ display: flex;
+}
+main section.buid h1{
+	font-size: 1.5rem;
+	margin: 1px;
+	
+}
+main section.buid div{
+	margin: 10px;
+	padding:0vw;
+}
+main section.buid h3{
+	margin: 5vw 0vw 0vw 10px;
+	font-size: 1.2rem;
+}
+main section.buid P.not{
+	text-align: start;
+	margin: 20px 0px 0px 4.3vw;
+}
+main section.buid img{
+	margin: 0px 0px 0px 0px;
+}
+/*=========================================================================
+                            section.footer
+=========================================================================*/
+main footer{
+	background-color:#Cbe4de ;
+	padding: 20px 10px 1px 1px;
+	display: flex;
 	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+}main footer ul {
+	display: flex;
+}main footer h1{
+	font-size: 1.4rem;
+	font-weight: bold;
+}main footer ul li{
+	padding: 0px 10px 0px 10px;
+}
+main footer ul li a{
+	color: #888888;
 }
