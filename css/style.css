@@ -102,6 +102,10 @@ main section.banner h2{
 	font-size: 2rem;
 	margin: 1vw 0 1vw 0 1vw;
 }
+section.banner img{
+	width: 80%;
+	max-width: 800px;
+}
 
 /*=========================================================================
                                 section.produto
@@ -190,3 +194,33 @@ main footer{
 main footer ul li a{
 	color: #888888;
 }
+/*======================RESPONSIVIDADE=====================*/  
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+	header{
+		display: block;
+		text-align: center;
+		justify-content: center;
+
+	}header nav ul li{
+		margin: 3vw;
+		width: 40%;
+		justify-content: center;
+	}header nav ul{
+		flex-wrap: wrap;
+		margin: 1vw;
+	}
+	header a h1{
+		margin: 3vw;
+	}
+	section.produto ul li{
+		width: 85%;
+		margin: 2vw;
+		padding: 2vw;
+	}
+	section.produto ul{
+		flex-wrap: wrap;
+		margin: 2vw;
+		align-items: center;
+	}
+  }
